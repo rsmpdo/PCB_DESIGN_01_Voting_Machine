@@ -1,0 +1,33 @@
+Change Component Designator: OldDesignator=D1 NewDesignator=DP
+Change Component Designator: OldDesignator=D2 NewDesignator=DQ
+Change Component Designator: OldDesignator=D3 NewDesignator=DR
+Change Component Designator: OldDesignator=D4 NewDesignator=DS
+Added Component: Designator=4(N0014A)
+Add component (AddParameter): Name = "Bits(#)"; Value = "6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Code_JEDEC"; Value = "MS-001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "SDLS029C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "F @ Nom Voltage(Max)(Mhz)"; Value = "35"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Generic Part Number"; Value = "SN7404"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ICC @ Nom Voltage(Max)(mA)"; Value = "0.033"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Input Type"; Value = "TTL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Range(C)"; Value = "0 to 70"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Output Drive (IOL/IOH)(Max)(mA)"; Value = "-0.4/16"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Output Type"; Value = "CMOS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "N0014A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = "Catalog"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Schmitt Trigger"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Technology Family"; Value = "TTL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "tpd @ Nom Voltage(Max)(ns)"; Value = "22"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VCC(Max)(V)"; Value = "5.25"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VCC(Min)(V)"; Value = "4.75"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage(Nom)(V)"; Value = "5"; VariantName = "[No Variations]"
+Change Net Name : Old Net Name=NetD1_1 New Net Name=NetDP_1
+Change Net Name : Old Net Name=NetD1_2 New Net Name=NetDP_2
+Change Net Name : Old Net Name=NetD2_1 New Net Name=NetDQ_1
+Change Net Name : Old Net Name=NetD2_2 New Net Name=NetDQ_2
+Change Net Name : Old Net Name=NetD3_1 New Net Name=NetDR_1
+Change Net Name : Old Net Name=NetD3_2 New Net Name=NetDR_2
+Change Net Name : Old Net Name=NetD4_1 New Net Name=NetDS_1
+Change Net Name : Old Net Name=NetD4_2 New Net Name=NetDS_2
+Added Member To Class: ClassName=Sheet1 Member=Component 4 SN7404N

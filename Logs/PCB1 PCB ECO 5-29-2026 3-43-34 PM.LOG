@@ -1,0 +1,39 @@
+Removed Pin From Net: NetName=NetD4_2 Pin=P1-2
+Removed Pin From Net: NetName=NetD4_2 Pin=P1-3
+Removed Pin From Net: NetName=NetD4_2 Pin=U1-9
+Removed Pin From Net: NetName=NetD4_2 Pin=U1-10
+Removed Pin From Net: NetName=NetD4_2 Pin=U2-2
+Removed Pin From Net: NetName=NetD4_2 Pin=U2-8
+Removed Pin From Net: NetName=NetD4_2 Pin=U3-1
+Removed Pin From Net: NetName=NetD4_2 Pin=U3-2
+Added Component: Designator=4(N0014A)
+Add component (AddParameter): Name = "Bits(#)"; Value = "6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Code_JEDEC"; Value = "MS-001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "SDLS029C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "F @ Nom Voltage(Max)(Mhz)"; Value = "35"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Generic Part Number"; Value = "SN7404"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ICC @ Nom Voltage(Max)(mA)"; Value = "0.033"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Input Type"; Value = "TTL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Range(C)"; Value = "0 to 70"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Output Drive (IOL/IOH)(Max)(mA)"; Value = "-0.4/16"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Output Type"; Value = "CMOS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "N0014A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = "Catalog"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Schmitt Trigger"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Technology Family"; Value = "TTL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "tpd @ Nom Voltage(Max)(ns)"; Value = "22"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VCC(Max)(V)"; Value = "5.25"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VCC(Min)(V)"; Value = "4.75"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage(Nom)(V)"; Value = "5"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetP1_2 Pin=P1-2
+Added Pin To Net: NetName=NetP1_2 Pin=U1-9
+Added Pin To Net: NetName=NetP1_2 Pin=U2-2
+Added Pin To Net: NetName=NetP1_2 Pin=U3-1
+Added Net: Name=NetP1_2
+Added Pin To Net: NetName=NetP1_3 Pin=P1-3
+Added Pin To Net: NetName=NetP1_3 Pin=U1-10
+Added Pin To Net: NetName=NetP1_3 Pin=U2-8
+Added Pin To Net: NetName=NetP1_3 Pin=U3-2
+Added Net: Name=NetP1_3
+Added Member To Class: ClassName=Sheet1 Member=Component 4 SN7404N
